@@ -1,0 +1,330 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+
+1.Header
+2.Slider
+3.Feature Info
+
+*/
+
+/* Color Pallete */
+
+:root{
+	--cc-white: #fff;
+	--cc-light: #dcdcdc;
+	--cc-dark: #646464;
+	--cc-yellow: #fdce00;
+	--cc-red: #e7000a;
+	--cc-darker: #292929;
+	--cc-blue: #23a7bc;
+	--cc-black: #000000;
+	--cc-red: #ff0000;
+	--cc-orange: #EB5419;
+}
+
+/* Header */
+
+.header{
+	background-color:var(--cc-darker);
+	padding: 5px 0px;
+}
+
+.logo{}
+.logo img{
+	border-radius: 50%;
+	width: 90px;
+	border: solid 3px var(--cc-white);
+}
+
+.top-menu{
+	margin: 0px;
+	list-style-type: none; /* Menghilangkan simbol penomeran*/
+	padding: 0px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.top-menu li a{
+	color: var(--cc-light);
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	display: block; /*Merubah sifat tag a yang awalnya inline menjadi kotak */
+	font-size: 12px;
+}
+
+.top-menu li a:hover{
+	color: var(--cc-white);
+	background-color: var(--cc-dark);
+}
+
+.main-menu{
+	margin: 0px;
+	list-style-type: none; /* Menghilangkan simbol penomeran*/
+	padding: 0px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.main-menu li a{
+	color: var(--cc-light);
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	display: block; /*Merubah sifat tag a yang awalnya inline menjadi kotak */
+}
+
+.main-menu li a:hover{
+	color: var(--cc-white);
+	background-color: var(--cc-dark);
+	border-bottom: solid 2px var(--cc-white);
+}
+
+/* Slideshow */
+
+.slide-text{
+	color: #FFFFFF;
+	position: absolute;
+	width: 50%;
+	bottom: 60px;
+	left: 60px;
+	padding: 10px;
+}
+
+.slide-text h3{
+	font-family: "arial black";
+	color: var(--cc-white);
+	text-shadow: 1px 1px 2px var(--cc-dark);
+}
+
+.slide-text p{
+	color: var(--cc-light);
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	padding: 10px;
+	display: inline-block;
+	border: solid 1px var(--cc-light);
+}
+
+.slide-text2{
+	color: #FFFFFF;
+	position: absolute;
+	width: 50%;
+	bottom: 60px;
+	right: 60px;
+	padding: 10px;
+	text-align: right;
+}
+
+.slide-text2 h3{
+	font-family: "arial black";
+	color: var(--cc-white);
+	text-shadow: 1px 1px 2px var(--cc-dark);
+}
+
+.slide-text2 p{
+	color: var(--cc-light);
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	padding: 10px;
+	display: inline-block;
+	border: solid 1px var(--cc-light);
+	text-align: right;
+}
+
+/* Feature Info */
+
+.feature-info{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	font-size: 20px;
+}
+
+.feature-info h1{
+	color: #008000;
+	font-family: "Arial Black";
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.feature-info p{
+	font: "loralora", serif;
+}
+
+.feature-info1 {
+	padding: 30px 15px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.feature-info1 h1{
+	color: #EB5419;
+	font-family: "Arial Black";
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	border-top: solid 1px var(--cc-light);
+	padding-top: 50px;
+}
+
+
+
+
+/* Descriptions Tour */
+
+.desc-pura{
+	border-bottom: solid 1px var(--cc-light);
+	padding-bottom: 14px;
+	margin-bottom: 30px;
+}
+
+/* Highlight */
+
+.hightlight{
+	padding-bottom: 14px;
+	margin-bottom: 30px;
+}
+
+/*tempat kunjung*/
+
+.tempat-kunjung{
+	padding: 0px 10px 10px 0px;
+}
+
+.tempat-kunjung p{
+	font-size: 17px;
+}
+
+/* Aktivity Section */
+
+.aktivity{
+	border: solid 2px var(--cc-light);
+	margin-bottom: 20px;
+	border-radius: 10px 10px;
+}
+
+.aktivity h3{
+	padding: 0px 0px;
+	font-size: 24px;
+}
+
+.aktivity p{
+	padding: 0px 10px;
+}
+
+
+
+/* Footer */
+
+.footer{
+	background-color:var(--cc-darker);
+	padding: 30px 0px;
+}
+
+.footer h3{
+	font-family: "Arial Black";
+	font-size: 30px;
+	color: var(--cc-light);
+}
+
+.footer img{
+	border-radius: 50%;
+	width: 90px;
+	border: solid 3px var(--cc-white);
+}
+
+.footer address{
+	color: var(--cc-light);
+	border-left: dotted 1px var(--cc-white);
+	padding-left: 20px;
+}
+
+.footer h2{
+	color: var(--cc-yellow);
+	font-size: 20px;
+	border-bottom: dotted 1px var(--cc-light);
+	padding-bottom: 10px;
+}
+
+.footer ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.footer li a{
+	color: var(--cc-light);
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+}
+
+.footer li a:hover{
+	color: var(--cc-white);
+	background-color: var(--cc-dark);
+}
+
+.copyright{
+	background-color: var(--cc-black);
+	padding: 5px 0px;
+	color: var(--cc-yellow)
+}
+
+.sosmed{
+	text-align: right;
+}
+
+.sosmed a{
+	font-size: 24px;
+}
+
+.sosmed a.fb{color: var(--cc-primary);}
+.sosmed a.ig{color: #A3007A;}
+.sosmed a.yt{color: var(--cc-red);}
+
+/* Media Query*/
+
+@media(min-width: 992px)
+{
+	.feature-info{
+		padding: 30px 150px;
+	}
+	
+	.col-sidebar-md{
+	display: block;
+	}
+	
+	.col-sidebar-sm{
+	display: none;
+	}
+}
+
+/* What Our Client Say?*/
+
+.testimoni .title-section{
+	color: var(--cc-black);
+	margin-top: 30px;
+}
+
+/* Recomendasi destinasi */
+
+.recomend-destinasi{
+	border: solid 1px var(--cc-dark);
+	margin-bottom: 20px;
+	border-radius: 5px 5px;
+}
+
+
+.recomend-destinasi h3.title-section{
+	color: var(--cc-blue)!important;
+	padding: 10px;
+	margin-bottom: 10px!important;
+}
+
+.recomend-destinasi p{
+	padding: 0px 10px;
+}
