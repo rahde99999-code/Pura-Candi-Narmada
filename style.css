@@ -31,7 +31,9 @@
 	padding: 5px 0px;
 }
 
-.logo{}
+.logo{
+	display: none;
+}
 .logo img{
 	border-radius: 50%;
 	width: 90px;
@@ -85,6 +87,10 @@
 /* Slideshow */
 
 .slide-text{
+	display: none;
+}
+
+.slide-text{
 	color: #FFFFFF;
 	position: absolute;
 	width: 50%;
@@ -107,6 +113,10 @@
 	padding: 10px;
 	display: inline-block;
 	border: solid 1px var(--cc-light);
+}
+
+.slide-text2{
+	display: none;
 }
 
 .slide-text2{
@@ -300,6 +310,18 @@
 	
 	.col-sidebar-sm{
 	display: none;
+	}
+
+	.logo{
+		display: block;
+	}
+
+	.slide-text{
+		display: block;
+	}
+
+	.slide-text2{
+		display: block;
 	}
 }
 
